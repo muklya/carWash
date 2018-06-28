@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06C32C29555D6CFEEE953AD2 /* Pods_CarwashTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9951A34F09F6D429A3A70B /* Pods_CarwashTests.framework */; };
+		A148F3C9A280E93FFB30E4D1 /* Pods_Carwash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D58F7E9AE977DC4FB65A3D /* Pods_Carwash.framework */; };
+		A312F29220DE16A900F640E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A312F29120DE16A900F640E9 /* AppDelegate.swift */; };
+		A312F29420DE16A900F640E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A312F29320DE16A900F640E9 /* ViewController.swift */; };
+		A312F29720DE16A900F640E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A312F29520DE16A900F640E9 /* Main.storyboard */; };
+		A312F29920DE16A900F640E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A312F29820DE16A900F640E9 /* Assets.xcassets */; };
+		A312F29C20DE16A900F640E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A312F29A20DE16A900F640E9 /* LaunchScreen.storyboard */; };
+		A312F2A720DE16A900F640E9 /* CarwashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A312F2A620DE16A900F640E9 /* CarwashTests.swift */; };
+		A312F2B220DE16A900F640E9 /* CarwashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A312F2B120DE16A900F640E9 /* CarwashUITests.swift */; };
+		A312F2C020DE195800F640E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A312F2BF20DE195800F640E9 /* GoogleService-Info.plist */; };
+		A346AFE220DE44EF004605BA /* LoggedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346AFE120DE44EF004605BA /* LoggedVC.swift */; };
+		A346AFE420DE4614004605BA /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346AFE320DE4614004605BA /* Main.swift */; };
+		A346AFE620DF8D73004605BA /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346AFE520DF8D73004605BA /* test.swift */; };
+		A346AFE820E15A60004605BA /* typeOfWash.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346AFE720E15A60004605BA /* typeOfWash.swift */; };
+		BA2505641245F8180C5530D2 /* Pods_CarwashUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBE315A9FCDE2B685716996 /* Pods_CarwashUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A312F2A320DE16A900F640E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A312F28620DE16A800F640E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A312F28D20DE16A900F640E9;
+			remoteInfo = Carwash;
+		};
+		A312F2AE20DE16A900F640E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A312F28620DE16A800F640E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A312F28D20DE16A900F640E9;
+			remoteInfo = Carwash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62D58F7E9AE977DC4FB65A3D /* Pods_Carwash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carwash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		766624D3C9E3C5E7C112733B /* Pods-CarwashUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarwashUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarwashUITests/Pods-CarwashUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E9951A34F09F6D429A3A70B /* Pods_CarwashTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarwashTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		901077A9288DC546EE9CC959 /* Pods-CarwashUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarwashUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarwashUITests/Pods-CarwashUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9EBE315A9FCDE2B685716996 /* Pods_CarwashUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarwashUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A312F28E20DE16A900F640E9 /* Carwash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carwash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A312F29120DE16A900F640E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A312F29320DE16A900F640E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A312F29620DE16A900F640E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A312F29820DE16A900F640E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A312F29B20DE16A900F640E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A312F29D20DE16A900F640E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A312F2A220DE16A900F640E9 /* CarwashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarwashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A312F2A620DE16A900F640E9 /* CarwashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarwashTests.swift; sourceTree = "<group>"; };
+		A312F2A820DE16A900F640E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A312F2AD20DE16A900F640E9 /* CarwashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarwashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A312F2B120DE16A900F640E9 /* CarwashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarwashUITests.swift; sourceTree = "<group>"; };
+		A312F2B320DE16A900F640E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A312F2BF20DE195800F640E9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A346AFE120DE44EF004605BA /* LoggedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggedVC.swift; sourceTree = "<group>"; };
+		A346AFE320DE4614004605BA /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		A346AFE520DF8D73004605BA /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		A346AFE720E15A60004605BA /* typeOfWash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = typeOfWash.swift; sourceTree = "<group>"; };
+		AAC62E85B63DFBBD8C1D2E70 /* Pods-CarwashTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarwashTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarwashTests/Pods-CarwashTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D599CE09B032601128CA33D7 /* Pods-Carwash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carwash.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Carwash/Pods-Carwash.debug.xcconfig"; sourceTree = "<group>"; };
+		D865D4FC8EBACB6F313FD2AC /* Pods-Carwash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carwash.release.xcconfig"; path = "Pods/Target Support Files/Pods-Carwash/Pods-Carwash.release.xcconfig"; sourceTree = "<group>"; };
+		EF734C2756F4CBBF8D77B972 /* Pods-CarwashTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarwashTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarwashTests/Pods-CarwashTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A312F28B20DE16A900F640E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A148F3C9A280E93FFB30E4D1 /* Pods_Carwash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A312F29F20DE16A900F640E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C32C29555D6CFEEE953AD2 /* Pods_CarwashTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A312F2AA20DE16A900F640E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2505641245F8180C5530D2 /* Pods_CarwashUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09A4ADE32F2398C88D365732 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62D58F7E9AE977DC4FB65A3D /* Pods_Carwash.framework */,
+				7E9951A34F09F6D429A3A70B /* Pods_CarwashTests.framework */,
+				9EBE315A9FCDE2B685716996 /* Pods_CarwashUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A14B4085BBD92F97C40F01B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D599CE09B032601128CA33D7 /* Pods-Carwash.debug.xcconfig */,
+				D865D4FC8EBACB6F313FD2AC /* Pods-Carwash.release.xcconfig */,
+				AAC62E85B63DFBBD8C1D2E70 /* Pods-CarwashTests.debug.xcconfig */,
+				EF734C2756F4CBBF8D77B972 /* Pods-CarwashTests.release.xcconfig */,
+				766624D3C9E3C5E7C112733B /* Pods-CarwashUITests.debug.xcconfig */,
+				901077A9288DC546EE9CC959 /* Pods-CarwashUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A312F28520DE16A800F640E9 = {
+			isa = PBXGroup;
+			children = (
+				A312F29020DE16A900F640E9 /* Carwash */,
+				A312F2A520DE16A900F640E9 /* CarwashTests */,
+				A312F2B020DE16A900F640E9 /* CarwashUITests */,
+				A312F28F20DE16A900F640E9 /* Products */,
+				A14B4085BBD92F97C40F01B3 /* Pods */,
+				09A4ADE32F2398C88D365732 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A312F28F20DE16A900F640E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A312F28E20DE16A900F640E9 /* Carwash.app */,
+				A312F2A220DE16A900F640E9 /* CarwashTests.xctest */,
+				A312F2AD20DE16A900F640E9 /* CarwashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A312F29020DE16A900F640E9 /* Carwash */ = {
+			isa = PBXGroup;
+			children = (
+				A312F29120DE16A900F640E9 /* AppDelegate.swift */,
+				A312F29320DE16A900F640E9 /* ViewController.swift */,
+				A312F29520DE16A900F640E9 /* Main.storyboard */,
+				A312F29820DE16A900F640E9 /* Assets.xcassets */,
+				A312F2BF20DE195800F640E9 /* GoogleService-Info.plist */,
+				A312F29A20DE16A900F640E9 /* LaunchScreen.storyboard */,
+				A312F29D20DE16A900F640E9 /* Info.plist */,
+				A346AFE120DE44EF004605BA /* LoggedVC.swift */,
+				A346AFE320DE4614004605BA /* Main.swift */,
+				A346AFE520DF8D73004605BA /* test.swift */,
+				A346AFE720E15A60004605BA /* typeOfWash.swift */,
+			);
+			path = Carwash;
+			sourceTree = "<group>";
+		};
+		A312F2A520DE16A900F640E9 /* CarwashTests */ = {
+			isa = PBXGroup;
+			children = (
+				A312F2A620DE16A900F640E9 /* CarwashTests.swift */,
+				A312F2A820DE16A900F640E9 /* Info.plist */,
+			);
+			path = CarwashTests;
+			sourceTree = "<group>";
+		};
+		A312F2B020DE16A900F640E9 /* CarwashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A312F2B120DE16A900F640E9 /* CarwashUITests.swift */,
+				A312F2B320DE16A900F640E9 /* Info.plist */,
+			);
+			path = CarwashUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A312F28D20DE16A900F640E9 /* Carwash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A312F2B620DE16A900F640E9 /* Build configuration list for PBXNativeTarget "Carwash" */;
+			buildPhases = (
+				2224DD2512D3431988AFA554 /* [CP] Check Pods Manifest.lock */,
+				A312F28A20DE16A900F640E9 /* Sources */,
+				A312F28B20DE16A900F640E9 /* Frameworks */,
+				A312F28C20DE16A900F640E9 /* Resources */,
+				3BDF44171EAA0F263048CD67 /* [CP] Embed Pods Frameworks */,
+				76A866DD1A1C1FAFEE3A7943 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Carwash;
+			productName = Carwash;
+			productReference = A312F28E20DE16A900F640E9 /* Carwash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A312F2A120DE16A900F640E9 /* CarwashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A312F2B920DE16A900F640E9 /* Build configuration list for PBXNativeTarget "CarwashTests" */;
+			buildPhases = (
+				52F4535C064DE4506B33E920 /* [CP] Check Pods Manifest.lock */,
+				A312F29E20DE16A900F640E9 /* Sources */,
+				A312F29F20DE16A900F640E9 /* Frameworks */,
+				A312F2A020DE16A900F640E9 /* Resources */,
+				4D7833ADE06D4BADF3AC019C /* [CP] Embed Pods Frameworks */,
+				73A8A8CEE11D60A9C24BCE53 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A312F2A420DE16A900F640E9 /* PBXTargetDependency */,
+			);
+			name = CarwashTests;
+			productName = CarwashTests;
+			productReference = A312F2A220DE16A900F640E9 /* CarwashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A312F2AC20DE16A900F640E9 /* CarwashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A312F2BC20DE16A900F640E9 /* Build configuration list for PBXNativeTarget "CarwashUITests" */;
+			buildPhases = (
+				669EC120A4A947E954DED74C /* [CP] Check Pods Manifest.lock */,
+				A312F2A920DE16A900F640E9 /* Sources */,
+				A312F2AA20DE16A900F640E9 /* Frameworks */,
+				A312F2AB20DE16A900F640E9 /* Resources */,
+				1BBF3257A2305D02DA7C7DAF /* [CP] Embed Pods Frameworks */,
+				3D922CF5DBFD5BF855DC2ADB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A312F2AF20DE16A900F640E9 /* PBXTargetDependency */,
+			);
+			name = CarwashUITests;
+			productName = CarwashUITests;
+			productReference = A312F2AD20DE16A900F640E9 /* CarwashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A312F28620DE16A800F640E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sdu;
+				TargetAttributes = {
+					A312F28D20DE16A900F640E9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					A312F2A120DE16A900F640E9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A312F28D20DE16A900F640E9;
+					};
+					A312F2AC20DE16A900F640E9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A312F28D20DE16A900F640E9;
+					};
+				};
+			};
+			buildConfigurationList = A312F28920DE16A900F640E9 /* Build configuration list for PBXProject "Carwash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A312F28520DE16A800F640E9;
+			productRefGroup = A312F28F20DE16A900F640E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A312F28D20DE16A900F640E9 /* Carwash */,
+				A312F2A120DE16A900F640E9 /* CarwashTests */,
+				A312F2AC20DE16A900F640E9 /* CarwashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A312F28C20DE16A900F640E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A312F29C20DE16A900F640E9 /* LaunchScreen.storyboard in Resources */,
+				A312F29920DE16A900F640E9 /* Assets.xcassets in Resources */,
+				A312F2C020DE195800F640E9 /* GoogleService-Info.plist in Resources */,
+				A312F29720DE16A900F640E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A312F2A020DE16A900F640E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A312F2AB20DE16A900F640E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BBF3257A2305D02DA7C7DAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarwashUITests/Pods-CarwashUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2224DD2512D3431988AFA554 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3BDF44171EAA0F263048CD67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Carwash/Pods-Carwash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D922CF5DBFD5BF855DC2ADB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarwashUITests/Pods-CarwashUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D7833ADE06D4BADF3AC019C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarwashTests/Pods-CarwashTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52F4535C064DE4506B33E920 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		669EC120A4A947E954DED74C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73A8A8CEE11D60A9C24BCE53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarwashTests/Pods-CarwashTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76A866DD1A1C1FAFEE3A7943 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Carwash/Pods-Carwash-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A312F28A20DE16A900F640E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A346AFE220DE44EF004605BA /* LoggedVC.swift in Sources */,
+				A346AFE820E15A60004605BA /* typeOfWash.swift in Sources */,
+				A312F29420DE16A900F640E9 /* ViewController.swift in Sources */,
+				A346AFE420DE4614004605BA /* Main.swift in Sources */,
+				A346AFE620DF8D73004605BA /* test.swift in Sources */,
+				A312F29220DE16A900F640E9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A312F29E20DE16A900F640E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A312F2A720DE16A900F640E9 /* CarwashTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A312F2A920DE16A900F640E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A312F2B220DE16A900F640E9 /* CarwashUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A312F2A420DE16A900F640E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A312F28D20DE16A900F640E9 /* Carwash */;
+			targetProxy = A312F2A320DE16A900F640E9 /* PBXContainerItemProxy */;
+		};
+		A312F2AF20DE16A900F640E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A312F28D20DE16A900F640E9 /* Carwash */;
+			targetProxy = A312F2AE20DE16A900F640E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A312F29520DE16A900F640E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A312F29620DE16A900F640E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A312F29A20DE16A900F640E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A312F29B20DE16A900F640E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A312F2B420DE16A900F640E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A312F2B520DE16A900F640E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A312F2B720DE16A900F640E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D599CE09B032601128CA33D7 /* Pods-Carwash.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Carwash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdu.edu.kz.Carwash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A312F2B820DE16A900F640E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D865D4FC8EBACB6F313FD2AC /* Pods-Carwash.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Carwash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdu.edu.kz.Carwash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A312F2BA20DE16A900F640E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAC62E85B63DFBBD8C1D2E70 /* Pods-CarwashTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarwashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdu.edu.kz.CarwashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carwash.app/Carwash";
+			};
+			name = Debug;
+		};
+		A312F2BB20DE16A900F640E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF734C2756F4CBBF8D77B972 /* Pods-CarwashTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarwashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdu.edu.kz.CarwashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carwash.app/Carwash";
+			};
+			name = Release;
+		};
+		A312F2BD20DE16A900F640E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 766624D3C9E3C5E7C112733B /* Pods-CarwashUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CarwashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdu.edu.kz.CarwashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Carwash;
+			};
+			name = Debug;
+		};
+		A312F2BE20DE16A900F640E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 901077A9288DC546EE9CC959 /* Pods-CarwashUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CarwashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdu.edu.kz.CarwashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Carwash;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A312F28920DE16A900F640E9 /* Build configuration list for PBXProject "Carwash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A312F2B420DE16A900F640E9 /* Debug */,
+				A312F2B520DE16A900F640E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A312F2B620DE16A900F640E9 /* Build configuration list for PBXNativeTarget "Carwash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A312F2B720DE16A900F640E9 /* Debug */,
+				A312F2B820DE16A900F640E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A312F2B920DE16A900F640E9 /* Build configuration list for PBXNativeTarget "CarwashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A312F2BA20DE16A900F640E9 /* Debug */,
+				A312F2BB20DE16A900F640E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A312F2BC20DE16A900F640E9 /* Build configuration list for PBXNativeTarget "CarwashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A312F2BD20DE16A900F640E9 /* Debug */,
+				A312F2BE20DE16A900F640E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A312F28620DE16A800F640E9 /* Project object */;
+}
